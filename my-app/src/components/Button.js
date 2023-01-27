@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import './Button.css';
 import { Link } from 'react-router-dom';
@@ -17,7 +15,7 @@ export const Button = ({
 }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
-    : STYLES[0];
+    : STYLES[0]
 
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
